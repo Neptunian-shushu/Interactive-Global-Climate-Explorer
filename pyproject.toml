@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "climate-explorer"
+version = "1.0.0"
+description = "Interactive Global Climate Explorer – Köppen-Geiger climate classification from NLDAS data"
+requires-python = ">=3.10"
+dependencies = [
+    "netCDF4",
+    "h5netcdf",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scipy",
+    "xarray",
+    "matplotlib",
+    "plotly",
+    "streamlit",
+    "shapely",
+    "scikit-learn",
+]
+
+[project.scripts]
+climate-pipeline = "climate_explorer.pipeline:main"
+climate-app = "climate_explorer.app_entry:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

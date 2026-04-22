@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+src/*.egg-info/
+
+# Raw source archive is kept local and regenerated outputs are committed selectively.
+earth/
+
+# Heavy intermediate output; regenerate with `python run_pipeline.py`.
+outputs/grid_monthly.parquet

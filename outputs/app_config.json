@@ -1,0 +1,30 @@
+{
+  "default_selected_region": "R04",
+  "patch_threshold": 60,
+  "legend_labels": [
+    "Hot desert",
+    "Semi-arid / steppe",
+    "Mediterranean",
+    "Humid subtropical",
+    "Marine west coast",
+    "Humid continental",
+    "Subarctic",
+    "Tundra / polar-like",
+    "Other / mixed transition"
+  ],
+  "color_mapping": {
+    "Hot desert": "#d97706",
+    "Semi-arid / steppe": "#b8892d",
+    "Mediterranean": "#74813c",
+    "Humid subtropical": "#2f855a",
+    "Marine west coast": "#0f766e",
+    "Humid continental": "#2563eb",
+    "Subarctic": "#4338ca",
+    "Tundra / polar-like": "#64748b",
+    "Other / mixed transition": "#6b7280"
+  },
+  "chart_titles": {
+    "monthly_2025": "2025 Monthly Temperature and Precipitation",
+    "annual_1996_2025": "1996-2025 Annual Temperature and Precipitation"
+  }
+}
